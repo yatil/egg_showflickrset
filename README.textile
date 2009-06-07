@@ -1,0 +1,7 @@
+h1. egg_flickrset
+
+Takes the following parameters:
+
+ <dl><dt><code>set</code></dt><dd>ID of the set to display, you can extract that easily from the URL: <code>http://www.flickr.com/photos/yatil/sets/<strong> 72157618717025654 </strong>/</code></dd><dt><code>max</code></dt><dd>Shows x photos. If there are more photos in a set, a link to the set is included.</dd><dt><code>align</code></dt><dd>Adds an additional class to the ul, to use with CSS.</dd><dt><code>desc</code></dt><dd>If description should be included the value is <code>yes</code> (default value), else <code>no</code>.</dd></dl>
+
+Some things are still hardcoded, like german text strings or the double photo for CSS tricks. This will be changed at some  time in the future.
